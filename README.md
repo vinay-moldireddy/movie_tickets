@@ -50,15 +50,29 @@ time
 
 ## Calling APIs
 
-####Create Ticket
+#### Create Ticket
 URL
 ```
 http://localhost/movie_tickets/api/view_user.php
 ```
 
-Inpuut
+Input
 ```JSON
 {
     "ticket_id": "32"
+}
+```
+#### Updating ticket time
+
+URL
+```
+http://localhost/movie_tickets/api/update_timing.php
+```
+
+Input
+```json
+{
+    "ticket_id": "32",
+    "timing": "2020-09-04 12:00:00"
 }
 ```
