@@ -2,9 +2,9 @@
 
 #### Following project is about designing *REST interface for a movie theatre ticket booking system*
 
-## Software Used:
-This project was built on *MySQL* database using **XAMPP** as local HTTP server.
+This project is built on *MySQL* database using **XAMPP** as local HTTP server.
 **Postman** is used to make HTTP requests.
+Language used is **PHP**
 
 ## movie_tickets project has following Files and Directories
 ```
