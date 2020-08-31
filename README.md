@@ -3,7 +3,7 @@
 #### Following project is about designing *REST interface for a movie theatre ticket booking system*
 
 This project is built on *MySQL* database using **XAMPP** as local HTTP server.
-**Postman** is used to make HTTP requests.
+**Postman** is used to create HTTP requests.
 Language used is **PHP**
 
 ## movie_tickets project has following Files and Directories
