@@ -4,5 +4,6 @@
 
 ## Software Used
 This project was built on *MySQL* database using **XAMPP** as local HTTP server.
-**Postman** is used to create HTTP requests.
+**Postman** is used to make HTTP requests.
+
 
