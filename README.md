@@ -7,7 +7,7 @@ This project was built on *MySQL* database using **XAMPP** as local HTTP server.
 **Postman** is used to make HTTP requests.
 
 ## movie_tickets project has following Files and Directories
-```bash
+```
 movie_tickets
  ├──PHP_CODE
  |    ├──api
@@ -31,4 +31,4 @@ movie_tickets
  |
  └──Mysql_Database
       └──movie_tickets.sql
-```bash
+```
