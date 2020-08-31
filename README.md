@@ -105,7 +105,7 @@ Input
     "ticket_id": "32",
 }
 ```
-### Delete tickets
+#### Delete tickets
 
 URL
 ```
