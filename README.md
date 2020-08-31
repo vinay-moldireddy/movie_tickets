@@ -53,13 +53,15 @@ time
 #### Create Ticket
 URL
 ```
-http://localhost/movie_tickets/api/view_user.php
+http://localhost/movie_tickets/api/create_ticket.php
 ```
 
 Input
 ```JSON
 {
-    "ticket_id": "32"
+    "user_name": "Vinay Kumar Reddy",
+    "phone": "886732340",
+    "timing": "2020-09-04 :00:00"
 }
 ```
 #### Updating ticket time
@@ -74,5 +76,44 @@ Input
 {
     "ticket_id": "32",
     "timing": "2020-09-04 12:00:00"
+}
+```
+#### View tickets
+
+URL
+```
+http://localhost/movie_tickets/api/view_tickets.php
+```
+
+Input
+```json
+{
+    "timing": "2020-09-04 12:00:00"
+}
+```
+
+#### View user
+
+URL
+```
+http://localhost/movie_tickets/api/view_user.php
+```
+
+Input
+```json
+{
+    "ticket_id": "32",
+}
+```
+### Delete tickets
+
+URL
+```
+http://localhost/movie_tickets/api/delete_ticket.php
+```
+Input
+```json
+{
+    "ticket_id": "32",
 }
 ```
